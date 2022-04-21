@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alura Challenge - Oracle ONE Encriptador de Texto  </title>
+</head>
+
+<body>
+    <!-- Inicio del header -->
+    <header class="header">
+        <img src="img/Logo.png" alt="img" class="header__img">
+    </header>
+    <!-- Fin header / inicio del Aside -->
+    <aside class="aside">
+        <div class="container--not--hidden">
+            <img src="img/Muñeco.png" alt="img" class="aside__img">
+            <h2 class="aside__h2">Ningún mensaje fue encontrado</h2>
+            <p class="aside__p">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div class="container--hidden">
+            <textarea name="text" id="textarea--hidden" class="aside__textarea" placeholder="">
+            </textarea>
+            <button id="button--hidden" class="aside__button">Copiar</button>
+        </div>
+    </aside>
+    <!-- Fin Aside / inicio de Main-->
+    <div class="main">
+        <div class="container__textarea">
+            <textarea name="text" cols="25" rows="10" id="textarea" class="main__textarea" placeholder="Ingrese el texto aqui" value=""></textarea>
+        </div>
+        <!-- Inicio de buttons -->
+        <div class="main--buttons">
+            <div class="container--img-p">
+                <img src="img/Vector.png" alt="?" class="main--buttons__img">
+                Solo letras minúsculas y sin acentos
+            </div>
+            <button id="button1" class="main--buttons__button button-1">Encriptar</button>
+            <button id="button2" class="main--buttons__button button-2">Desencriptar</button>
+        </div>
+        <!-- Fin buttons -->
+    </div>
+    <!-- Fin Main / incio de footer -->
+    <footer class="footer">
+        <p class="footer__p">
+            Hecho por Franco Zalazar :D
+        </p>
+    </footer>
+    <!-- Fin footer -->
+</body>
+<script src="main.js"></script>
+
+</html>
