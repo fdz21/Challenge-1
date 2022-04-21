@@ -1,2 +1,2 @@
 # Challenge-1
-Challenge 1 de Alura Latam
+Challenge 1 - Alura Latam
